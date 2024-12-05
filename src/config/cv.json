@@ -1,44 +1,72 @@
 {
     "basic": {
-        "name": "Paul Smith",
+        "name": "Tobias Haas",
         "job": "Software Engineer",
         "summary": "Transforming challenges into opportunities with cutting-edge technology. Driven by a love for elegant, robust code.",
         "cv_file_name": "paul_cv.pdf"
     },
-    "experiences": [
-        {
-            "title": "Senior Software Engineer",
-            "sub_title": "Tech Solutions Inc.",
-            "years": "2021 - Present",
-            "details": "Led the development of a scalable e-commerce platform that increased sales by 30%. Worked with modern technologies including React, Node.js, and AWS."
-        },
-        {
-            "title": "Software Engineer",
-            "sub_title": "Innovate Labs",
-            "years": "2018 - 2021",
-            "details": "Developed and maintained web applications for various clients. Key contributor in migrating legacy systems to cloud infrastructure."
-        },
-        {
-            "title": "Junior Developer",
-            "sub_title": "Creative Apps Studio",
-            "years": "2015 - 2018",
-            "details": "Worked on mobile app development, collaborating with design teams to create user-friendly applications."
-        }
-    ],
     "education": [
         {
-            "title": "Bachelor of Science in Computer Science",
-            "sub_title": "University of Modern Tech",
-            "years": "2015 - 2019",
-            "details": "Graduated with honors. Specialized in software development, data structures, and algorithms. Worked on various open-source projects and completed internships in tech companies."
+            "title": "HTL Saalfelden (Higher Technical School)",
+            "sub_title": "Informatic, St. Johann im Pongau, Austria",
+            "years": "2019 - Present",
+            "details": "Currently in the 5th year of study, specializing in software engineering and application development. Focused on programming, system design, and IT infrastructure. Gained practical experience through projects and internships."
         },
         {
-            "title": "Master of Science in Software Engineering",
-            "sub_title": "Global Tech Institute",
-            "years": "2019 - 2021",
-            "details": "Focused on advanced algorithms, cloud computing, and full-stack development. Published research papers on scalable microservices architecture."
+            "title": "HTL Saalfelden (Higher Technical School)",
+            "sub_title": "Building Technology (Bautechnik), Saalfelden, Austria",
+            "years": "2018 - 2019",
+            "details": "Completed the first year of study specializing in building technology. Gained foundational knowledge in construction, civil engineering, and architectural design. Participated in practical projects and internships in the construction field."
+        }        
+    ],
+
+    "experiences": [
+        {
+            "title": "Intern Software Developer",
+            "sub_title": "NETQM",
+            "years": "2022 - 2022",
+            "details": "Developed software for a newly designed machine, enabling control of both lighting and the mode settings. Collaborated with the team to implement efficient solutions for hardware integration."
         }
     ],
+
+    "skills": [
+        {
+          "title": "Web Development",
+          "details": "I program and design user-friendly, functional, and modern websites. I use HTML, CSS, JavaScript, and frameworks to turn ideas into impressive digital experiences."
+        },
+        {
+          "title": "Game Development",
+          "details": "In addition to websites, I developed small games that combine creativity and technical challenges. I especially enjoy working with tools like Unity and Phaser to create interactive experiences."
+        },
+        {
+          "title": "General Programming",
+          "details": "Whether it's automation, scripts, or prototypes, I love finding creative solutions to problems. I enjoy working with Python, C#, and JavaScript, and I'm always open to learning new languages and frameworks."
+        }
+      ],
+
+      "certificates": [
+        {
+          "title": "SAP-Certificate",
+          "sub_title": "2022",
+          "details": "Comprehensive knowledge in the use of ERP systems and business processes."
+        },
+        {
+          "title": "CISCO-Certificate",
+          "sub_title": "2023",
+          "details": "Skills in network administration and security."
+        },
+        {
+          "title": "Cybersecurity -Certificate",
+          "sub_title": "2024",
+          "details": "Knowledge in IT security and the protection of sensitive data."
+        },
+        {
+          "title": "Python -Certificate",
+          "sub_title": "2024",
+          "details": "Basic skills in programming and development with Python."
+        }
+      ],
+
     "projects": [
         {
             "imageUrl": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=764&auto=format&fit=crop",
