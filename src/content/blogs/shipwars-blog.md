@@ -6,7 +6,7 @@ datetime: "2024-12-05T00:00:00Z"
 
 # Dokumentation Semesterprojekt Tobias Haas
 
-![Frontend Animation vor dem druecken auf der WebApp](./Images/intro.png)
+![Frontend Animation vor dem druecken auf der WebApp](../../assets/shipwars-blog/intro.png)
 
 ## Softwaredesign (Architektur)
 
@@ -28,7 +28,7 @@ Das Spiel (ShipWars) ermöglicht es Benutzern Schiffe zu verwalten (kaufen und v
 ### Intro
 Wenn man die Website startet ( oder neustartet) wir ein Intro abgespielt wo jegliche Informationen wiedergespiegelt werden in einer StarWars Art.
 
-![Intro animnatiom](./Images/introanim.png)
+![Intro animnatiom](../../assets/shipwars-blog/introanim.png)
 ### Hauptfenster
 Im Hauptfenster kann man ein paar Statistiken einsehen. Wie Spieler-, Raumschiff-, oder Planeten Statistiken. Wobei immer die Top fünf ausgegeben wird.
 Beim Spieler werden fünf reichsten Spieler, die fünf Spieler mit den meisten Schiffen und die Spieler mit dem höchsten Level ausgegeben. Bei den Raumschiffen werden die teuersten und meist gekauften visualisiert. Ähnlich wie bei den Raumschiffen werden bei den Planeten auch die meist Bewohnten und meist besuchten Planeten ausgegeben.
@@ -36,7 +36,7 @@ Beim Spieler werden fünf reichsten Spieler, die fünf Spieler mit den meisten S
 ## Funktionen der WPF
 
 ### Login
-![Intro animnatiom](./Images/login.png)<br>
+![Intro animnatiom](../../assets/shipwars-blog/login.png)<br>
 In dem Eingabefeld neben dem Label **"Email: "** gibt man die regestierte Email-Adresse des zu verwendenten Benutzers ein<br>
 In dem Eingabefeld neben dem Label **"Password: "** gibt man das Passwort des Benutzers ein<br>
 Wenn man auf den **Register here!** Knopf neben **Don't have an account?** drückt, dann wird man zum Registrieren-Fenster weitergeleitet
@@ -45,7 +45,7 @@ Wenn man auf den **Login** Knopf drückt, dann werden die Daten überprüfft und
 
 
 ### Registrieren
-![Intro animnatiom](./Images/register.png)<br>
+![Intro animnatiom](../../assets/shipwars-blog/register.png)<br>
 In dem Eingabefeld neben dem Label **"Username: "** gibt man den Benutzernamen des zu erstellenden Benutzers ein.<br>
 In dem Eingabefeld neben dem Label **"Email: "** gibt man die Email-Adresse des zu erstellenden Benutzers ein.<br>
 In dem Eingabefeld unter dem Label **"Password: "** gibt man das Passwort des zu erstellenden Benutzers ein.<br>
@@ -53,38 +53,38 @@ Wenn man auf den **Login here!** Knopf neben dem **Alr.. have an account?** Text
 Wenn man auf den **Register** Knopf drückt, dann werden die eingegeben Daten überprüfft und Registriert. Dannach wird man wieder zum Login weitergeleitet.<br>
 
 ### Hauptfenster
-![Intro animnatiom](./Images/main.png)<br>
+![Intro animnatiom](../../assets/shipwars-blog/main.png)<br>
 #### Market Knopf
-![Intro animnatiom](./Images/market.png)
+![Intro animnatiom](../../assets/shipwars-blog/market.png)
 Wenn man auf den Knopf **Market** drückt, wird man zum Händler weitergeleitet. Beim Händler kann man verschiedene Schiffe anschauen und vergleichen. Man kann zwischen zwei Optionen beim Kauf wählen, ob man es direkt kaufen will, oder es ausleihen will.<br>
 #### Detail: Knopf
-![Intro animnatiom](./Images/detail.png)
+![Intro animnatiom](../../assets/shipwars-blog/detail.png)
 #### Online Market Knopf
-![Intro animnatiom](./Images/onlinemarket.png)
+![Intro animnatiom](../../assets/shipwars-blog/onlinemarket.png)
 Wenn man auf den Knopf **Online Market** drückt, wird man zum Auktionshändler weitergeleitet. Beim Auktionshändler kann man verschiedene Schiffe anschauen und vergleichen, welche von anderen Benutzern verkauft werden. Man kann hier nur das Schiff direkt kaufen, wobei dann 100% des Geldes an den Verkäufer wieder geht.
 #### Detail: Knopf
-![Intro animnatiom](./Images/onlinemarketdetails.png)<br>
+![Intro animnatiom](../../assets/shipwars-blog/onlinemarketdetails.png)<br>
 #### Job Knopf
-![Intro animnatiom](./Images/jobs.png)
+![Intro animnatiom](../../assets/shipwars-blog/jobs.png)
 Wenn man auf den Knopf **Job** drückt, wird man zum Berufsmarkt weitergeleitet. Beim dem man zwischen verschiedene Berufe auswählen kann. Es gibt Legale und Illegale Jobangebote, wobei meistens die Illegalen rentabler sind, jeddoch auch die Chance eines Misserfolgs höher sind. Man kann die Details der Jobs vergleichen und auf Bedarf auch den Job annehmen. Bei einem nicht erfüllten Job werden 50% der Einnahmen als Strafe abgezogen vom Konto.<br>
 
 #### Detail: Knopf
-![Intro animnatiom](./Images/jobdetail.png)
+![Intro animnatiom](../../assets/shipwars-blog/jobdetail.png)
 #### Explore Knopf
-![Intro animnatiom](./Images/explore.png)
+![Intro animnatiom](../../assets/shipwars-blog/explore.png)
 Wenn man auf den Knopf **Explore** drückt, wird man zur Planeten-Übersicht weitergeleitet. Man kann verschiedene Planeten vergleichen und besuchen, wobei man dafür ein Raumschiff besitzten muss. Bei jeder Reise wird 1% vom Leben des Schiffes abgezogen. Wenn man einen aktiven Job am Laufen hat, muss man den genannten Planeten hier besuchen um den Job zu absolvieren.<br>
 
 #### Detail: Knopf
-![Intro animnatiom](./Images/planetdetails.png)
+![Intro animnatiom](../../assets/shipwars-blog/planetdetails.png)
 
 #### Travel: Knopf
-![Intro animnatiom](./Images/travelwindow.png)
+![Intro animnatiom](../../assets/shipwars-blog/travelwindow.png)
 #### My Ships Knopf
-![Intro animnatiom](./Images/myships.png)
+![Intro animnatiom](../../assets/shipwars-blog/myships.png)
 Wenn man auf den Knopf **My Ships** drückt, kann man seine eigenen Schiffe sehen. Wenn ein Schiff den Wert 0 hat, wird es automatisch als geliehen anerkannt.<br>
 
 #### Sell Online: Knopf
-![Intro animnatiom](./Images/myshipssellonline.png)
+![Intro animnatiom](../../assets/shipwars-blog/myshipssellonline.png)
 
 ##  API-Beschreibung
 
