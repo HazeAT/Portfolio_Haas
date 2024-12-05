@@ -69,22 +69,22 @@
 
     "projects": [
         {
-            "imageUrl": "https://imgur.com/a/6EX6K1I",
+            "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=764&auto=format&fit=crop",
             "title": "Portfolio",
             "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "link": "https://github.com/HazeAT/Portfolio_Haas"
         },
         {
             "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=764&auto=format&fit=crop",
-            "title": "Paul UI kit collections",
-            "type": "UI Kit",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "title": "NETQM Color Picker",
+            "type": "UI Kit & Arduino",
+            "link": "https://github.com/HazeAT/NETQMColorPicker"
         },
         {
             "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=764&auto=format&fit=crop",
-            "title": "paul.com",
-            "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "title": "ShipWars",
+            "type": "Website & Spring & WPF",
+            "link": "https://github.com/HazeAT/ShipWars"
         }
     ]
 }
