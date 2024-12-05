@@ -1,67 +1,67 @@
-/* Skills Section */
 .skills {
-    padding: 2rem;
-    background-color: #f9fafb;
-    color: #333;
-  }
-  
-  .skills h2 {
+    padding: 40px 0;
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
   }
   
-  /* Tech Grid */
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+  
   .tech-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1.5rem;
-    justify-items: center;
+    grid-template-columns: repeat(5, 1fr); /* Maximal 5 Spalten pro Reihe */
+    gap: 20px; /* Entfernt den Abstand zwischen den Karten */
+    justify-items: center; /* Zentriert die Items horizontal */
+    grid-auto-rows: 1fr; /* Gleiche Zeilenhöhe */
+    justify-content: center; /* Zentriert das Grid in der Mitte des Containers */
+    align-items: center; /* Zentriert die Elemente vertikal */
+    margin: 0 auto; /* Zentriert das Grid auf der Seite */
+    max-width: 50%; /* Begrenzt die Breite des Grids auf 50% */
+
   }
   
-  /* Tech Cards */
   .tech-card {
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
     text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    max-width: 200px;
   }
   
   .tech-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1); /* Hover-Effekt */
   }
   
-  /* Tech Icon */
   .tech-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 0.75rem;
-    object-fit: contain;
+    max-width: 100px; /* Icon-Größe */
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    margin-bottom: 10px;
   }
   
-  /* Tech Description */
-  .tech-card p {
-    font-size: 1rem;
-    color: #666;
-    font-weight: 500;
-  }
   
-  /* Mobile Responsiveness */
-  @media (max-width: 768px) {
-    .skills {
-      padding: 1rem;
-    }
-  
+  @media (max-width: 1024px) {
     .tech-grid {
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      grid-template-columns: repeat(4, 1fr); /* Auf mittleren Bildschirmen 4 Spalten */
     }
+  }
   
-    .tech-card {
-      max-width: 180px;
+  @media (max-width: 768px) {
+    .tech-grid {
+      grid-template-columns: repeat(3, 1fr); /* Auf mobilen Geräten 3 Spalten */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tech-grid {
+      grid-template-columns: repeat(2, 1fr); /* Auf sehr kleinen Geräten 2 Spalten */
     }
   }
   

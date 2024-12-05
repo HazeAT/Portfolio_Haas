@@ -1,0 +1,57 @@
+---
+import { Image } from 'astro:assets';
+
+// Import images at the top
+import blenderLogo from './../assets/tech-tools/blender.png';
+import bootstrapLogo from './../assets/tech-tools/bootstrap.png';
+import cppLogo from './../assets/tech-tools/cpp.png';
+import csharpLogo from './../assets/tech-tools/csharp.png';
+import cssLogo from './../assets/tech-tools/css.png';
+import htmlCssLogo from './../assets/tech-tools/html.png';
+import javaLogo from './../assets/tech-tools/java.png';
+import javascriptLogo from './../assets/tech-tools/js.png';
+import mongodbLogo from './../assets/tech-tools/mongodb.png';
+import mysqlLogo from './../assets/tech-tools/mysql.png';
+import nodejsLogo from './../assets/tech-tools/nodejs.png';
+import postgresLogo from './../assets/tech-tools/postgres.png';
+import pythonLogo from './../assets/tech-tools/python.png';
+import springbootLogo from './../assets/tech-tools/springboot.png';
+import ue5Logo from './../assets/tech-tools/ue5.png';
+import unityLogo from './../assets/tech-tools/unity.png';
+
+// Define the tech items with their imported image paths and descriptions
+const techItems = [
+  { src: csharpLogo, alt: 'C#', description: 'For game development with Unity and backend development.' },
+  { src: pythonLogo, alt: 'Python', description: 'For automation, data analysis, and scripting.' },
+  { src: javaLogo, alt: 'Java', description: 'Used in backend systems, Spring Boot, and algorithms.' },
+  { src: javascriptLogo, alt: 'JavaScript', description: 'For interactive web applications and frontend development.' },
+  { src: cppLogo, alt: 'C++', description: 'For game development and algorithms.' },
+  { src: htmlCssLogo, alt: 'HTML & CSS', description: 'For creating layouts and designs.' },
+  { src: nodejsLogo, alt: 'Node.js', description: 'For server-side applications and APIs.' },
+  { src: bootstrapLogo, alt: 'Bootstrap', description: 'For responsive, mobile-first web designs.' },
+  { src: postgresLogo, alt: 'PostgreSQL', description: 'For relational databases with advanced features.' },
+  { src: mongodbLogo, alt: 'MongoDB', description: 'For NoSQL databases with high scalability.' },
+  { src: mysqlLogo, alt: 'MySQL', description: 'For relational database management systems.' },
+  { src: unityLogo, alt: 'Unity', description: 'For creating 2D and 3D games.' },
+  { src: blenderLogo, alt: 'Blender', description: 'For 3D modeling, animation, and game design.' },
+  { src: springbootLogo, alt: 'Spring Boot', description: 'For building RESTful APIs and microservices.' },
+  { src: ue5Logo, alt: 'Unreal Engine 5', description: 'For high-end 3D game development.' },
+];
+---
+
+<section class="skills">
+  <h2>Tech Toolbox</h2>
+  <div class="tech-grid">
+    {techItems.map((tech, index) => (
+      <div class="tech-card" >
+        <Image 
+          class="tech-icon" 
+          src={tech.src} 
+          alt={tech.alt} 
+          width={100} 
+          height={100} 
+        />
+      </div>
+    ))}
+  </div>
+</section>
